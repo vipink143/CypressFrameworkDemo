@@ -1,0 +1,11 @@
+
+
+{
+    "loginPageLocators":
+    {
+        "username_text":"input[name='username']",
+        "password_text":"input[name='password']",
+        "loginButton_text":"button[type='submit']",
+        "verificationText": "h6[class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']"
+    }
+}
