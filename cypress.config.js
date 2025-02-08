@@ -9,7 +9,7 @@ module.exports = defineConfig({
     },
   },
   env: {
-    orangeHrm_url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+    base_url: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
     
   }
 
