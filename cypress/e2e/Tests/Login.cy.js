@@ -9,7 +9,7 @@ describe("Login with valid and invalid credentials",()=>{
     beforeEach(()=>{
         cy.visit(Cypress.env('base_url'));
 
-        cy.fixture('LoginUserData.json').as('users')
+      //  cy.fixture('LoginUserData.json').as('users')
 
 
     })
