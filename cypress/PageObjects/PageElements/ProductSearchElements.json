@@ -1,0 +1,14 @@
+
+{
+
+    "productElementLocators":
+    {
+
+        "searchPlaceholder":"[class='form-control input-lg']"
+
+
+
+    }
+
+
+}

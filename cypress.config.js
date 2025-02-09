@@ -9,7 +9,8 @@ module.exports = defineConfig({
     },
   },
   env: {
-    base_url: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+    base_url: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login',
+    productSearch_url:"https://naveenautomationlabs.com/opencart/index.php?route=product/search"
     
   }
 
