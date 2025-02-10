@@ -4,7 +4,8 @@
     "productElementLocators":
     {
 
-        "searchPlaceholder":"[class='form-control input-lg']"
+        "searchPlaceholder":"[class='form-control input-lg']",
+        "sortingElement":"#input-sort"
 
 
 

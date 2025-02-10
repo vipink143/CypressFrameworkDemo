@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "test:smoke": "npx cypress run --env grepTags=@smoke",
+    "smoketest":"npx cypress run --spec cypress/e2e/Tests/Login.cy.js",
+    "regressiontest":"npx cypress run --spec cypress/e2e/Tests/Login.cy.js,cypress/e2e/Tests/RegisterTest.cy.js",
+    "featuretest":"npx cypress run --spec cypress/e2e/Tests/Login.cy.js,cypress/e2e/Tests/RegisterTest.cy.js,cypress/e2e/Tests/ProductSearchTest.cy.js"
   },
   "author": "vipin",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
     "cypress": "^13.17.0"
   }
 }

@@ -1,0 +1,19 @@
+
+
+{
+    "registerPageElementLocators":
+    {
+
+        "newRegistrationEntryPointLocator":"[class='col-sm-6']>div>a",
+        "firtsNameLocator":"#input-firstname",
+        "lastNameLocator":"#input-lastname",
+        "emailLocator":"#input-email",
+        "telephoneLocator":"#input-telephone",
+        "passwordLocator":"#input-password",
+        "confirmPassLocator":"#input-confirm",
+        "policyCheckboxLocator":"[class='buttons']>div>input",
+        "submitRegisterPageLocator":"[type='submit']",
+        "successTextLocator":"[id='content'] >h1"
+
+    }
+}

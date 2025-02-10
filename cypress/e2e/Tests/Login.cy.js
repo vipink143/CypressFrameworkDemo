@@ -4,7 +4,7 @@
 import LoginPage from "../../PageObjects/PageActions/LoginPage"
 
 
-describe("Login with valid and invalid credentials",()=>{
+describe("Login with valid and invalid credentials",{ tags: ['@Login', '@smoke'] },()=>{
 
     beforeEach(()=>{
         cy.visit(Cypress.env('base_url'));
